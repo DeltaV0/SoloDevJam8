@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
 
     public void Kill()
     {
-        SceneManager.LoadSceneAsync("SampleScene");
+        SceneManager.LoadSceneAsync("Dead");
         gameObject.SetActive(false);
      }
 
@@ -54,7 +54,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown("space"))
         {
-            //auds[1].Play();
+            auds[1].Play();
             Vector2 aimDirection = mousePos - rb.position;
             rb.AddForce(aimDirection * 10, ForceMode2D.Impulse);
             col.enabled = false;

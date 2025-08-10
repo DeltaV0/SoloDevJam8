@@ -40,8 +40,8 @@ public class Enemy : MonoBehaviour
 
         if (attackTimer <= 0)
         {
-            attackTimer = (int)(( (float)((float)health / 250) * 125f) + 25f);
-            int r = Random.Range(0, 12);
+            attackTimer = (int)(( (float)((float)health / 250) * 65f) + 10f);
+            int r = Random.Range(0, 13);
             if (r == 0)
             {
                 StartCoroutine(attack0());
@@ -79,6 +79,9 @@ public class Enemy : MonoBehaviour
              } else if (r == 11)
             {
                 StartCoroutine(attack11());
+             } else if (r == 12)
+            {
+                StartCoroutine(attack12());
              }
              
         }
@@ -234,6 +237,16 @@ public class Enemy : MonoBehaviour
         {
             GameObject bullet = (GameObject)Instantiate(bonk, new Vector3(pos.x + Random.Range(-10f, 10f), pos.y + Random.Range(-10f, 10f), pos.z), Quaternion.Euler(0f, 0f, Random.Range(0, 360f)));
             yield return new WaitForSeconds(0.5f);
+        }
+     }
+     IEnumerator attack12()
+    { //cross
+      Vector3 pos = Player.player.transform.position;
+        for (int i = 0; i < 36; i++)
+        {
+            pos = Player.player.transform.position;
+            GameObject bullet = (GameObject)Instantiate(beam, new Vector3(pos.x + Random.Range(-1f, 1f), pos.y + Random.Range(-1f, 1f), pos.z), Quaternion.Euler(0f, 0f, i * 10));
+            yield return new WaitForSeconds(0.1f);
         }
      }
     

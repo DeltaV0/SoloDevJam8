@@ -116,6 +116,10 @@ PrefabInstance:
       propertyPath: colwarn.Array.data[2].g
       value: 0.3137255
       objectReference: {fileID: 0}
+    - target: {fileID: 6417951495163751959, guid: be8e5b7c6d2e08f478846545e853ac06, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 8786263221305990989, guid: be8e5b7c6d2e08f478846545e853ac06, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
