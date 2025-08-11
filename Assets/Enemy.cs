@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -26,22 +27,77 @@ public class Enemy : MonoBehaviour
 
     public AudioSource[] aud;
 
+    public bool doing;
+
+    public ParticleSystem hitparts;
+
+    public int movetarget;
+
+    public Vector3 MoveTargetPosRand;
+
+    public Rigidbody2D rb;
+
+    public int moveTimer;
     //public int maxtimer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        movetarget = 1;
+        moveTimer = 250;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(health <= 0){
+            SceneManager.LoadScene("win");
+        }
         HealthBar.fillAmount = (float)((float)health / 250);
 
-        if (attackTimer <= 0)
+        if (attackTimer <= 0 && !doing)
         {
-            attackTimer = (int)(( (float)((float)health / 250) * 65f) + 10f);
-            int r = Random.Range(0, 13);
+            doing = true;
+            attackTimer = (int)(( (float)((float)health / 250) * 175f) + 25f);
+            int q = Random.Range(0, 8);
+            if(q == 0 || q == 7){
+                SkipTurn();
+            } else if(q == 1){
+                doing = false;
+                RandomAttack();
+            } else if(q == 2){
+                StartCoroutine(Combo0());
+            } else if(q == 3){
+                StartCoroutine(Combo1());
+            } else if(q == 4){
+                StartCoroutine(Combo2());
+            } else if(q == 5){
+                StartCoroutine(Combo3());
+            } else if(q == 6){
+                StartCoroutine(Combo4());
+            }
+
+            
+             
+        }
+
+        if(moveTimer <= 0){
+            moveTimer = 250;
+            MoveTargetPosRand = new Vector2(Random.Range(-25f, 25f), Random.Range(-25f, 25f));
+            movetarget = Random.Range(0, 5);
+        }
+    }
+
+    public void SkipTurn(){
+        doing = false;
+        //do literally nothing and reset the timer
+    }
+
+    public void RandomAttack(){
+        int r = Random.Range(0, 13);
+        ChosenAttack(r);
+    }
+
+    public void ChosenAttack(int r){
             if (r == 0)
             {
                 StartCoroutine(attack0());
@@ -83,8 +139,49 @@ public class Enemy : MonoBehaviour
             {
                 StartCoroutine(attack12());
              }
-             
-        }
+    }
+
+    IEnumerator Combo0(){
+        ChosenAttack(0);
+        yield return new WaitForSeconds(2f);
+        ChosenAttack(0);
+        ChosenAttack(4);
+        doing = false;
+        yield return new WaitForSeconds(0f);
+    }
+
+    IEnumerator Combo1(){
+        RandomAttack();
+        yield return new WaitForSeconds(0.25f);
+        RandomAttack();
+        yield return new WaitForSeconds(1f);
+        RandomAttack();
+        doing = false;
+        yield return new WaitForSeconds(0f);
+    }
+
+    IEnumerator Combo2(){
+        ChosenAttack(5);
+        yield return new WaitForSeconds(1f);
+        ChosenAttack(5);
+        doing = false;
+        yield return new WaitForSeconds(0f);
+    }
+
+    IEnumerator Combo3(){
+        ChosenAttack(1);
+        //yield return new WaitForSeconds(1f);
+        ChosenAttack(2);
+        doing = false;
+        yield return new WaitForSeconds(0f);
+    }
+
+    IEnumerator Combo4(){
+        ChosenAttack(6);
+        
+        ChosenAttack(7);
+        doing = false;
+        yield return new WaitForSeconds(0f);
     }
 
     IEnumerator attack0()
@@ -242,22 +339,42 @@ public class Enemy : MonoBehaviour
      IEnumerator attack12()
     { //cross
       Vector3 pos = Player.player.transform.position;
-        for (int i = 0; i < 36; i++)
+        for (int i = 0; i < 5; i++)
         {
             pos = Player.player.transform.position;
-            GameObject bullet = (GameObject)Instantiate(beam, new Vector3(pos.x + Random.Range(-1f, 1f), pos.y + Random.Range(-1f, 1f), pos.z), Quaternion.Euler(0f, 0f, i * 10));
-            yield return new WaitForSeconds(0.1f);
+            GameObject bullet = (GameObject)Instantiate(beam, new Vector3(pos.x + Random.Range(-1f, 1f), pos.y + Random.Range(-1f, 1f), pos.z), Quaternion.Euler(0f, 0f, i * 36));
+            yield return new WaitForSeconds(0.025f);
         }
      }
     
     private void FixedUpdate()
     {
-        fancy[0].Rotate(0.2f, 0f, 0.5f);
-        fancy[1].Rotate(0.3f, -0.1f, 0.1f);
-        fancy[2].Rotate(0, 0, 1f);
+        fancy[0].Rotate(0.2f, 0f, 0.5f * rb.linearVelocity.magnitude);
+        fancy[1].Rotate(0.3f, -0.1f, 0.1f * rb.linearVelocity.magnitude);
+        fancy[2].Rotate(0, 0, (0.1f * rb.linearVelocity.magnitude) + 1f);
+        fancy[3].Rotate(3.15f, 4.211f, 5.82f);
         if (attackTimer > 0)
         {
             attackTimer--;
+        }
+
+        if (moveTimer > 0)
+        {
+            moveTimer--;
+        }
+
+        if(movetarget == 1){
+            Vector2 aimDirection = new Vector2(-1f * Player.player.transform.position.x, -1f * Player.player.transform.position.y) - rb.position;
+            rb.AddForce(aimDirection * 1f, ForceMode2D.Impulse);
+        } else if(movetarget == 2){
+            Vector2 aimDirection = new Vector2(MoveTargetPosRand.x, MoveTargetPosRand.y) - rb.position;
+            rb.AddForce(aimDirection * 1f, ForceMode2D.Impulse);
+        } else if(movetarget == 3){
+            Vector2 aimDirection = new Vector2(Player.player.transform.position.x, Player.player.transform.position.y) - rb.position;
+            rb.AddForce(aimDirection * 3f, ForceMode2D.Impulse);
+        } else if(movetarget == 4){
+            Vector2 aimDirection = new Vector2(0, 0) - rb.position;
+            rb.AddForce(aimDirection * 2f, ForceMode2D.Impulse);
         }
     }
 }

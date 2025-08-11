@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 
     public AudioSource[] auds;
 
-    public float fireForce = 30f;
+    public float fireForce = 50f;
 
     Vector2 moveDir;
     Vector2 mousePos;
@@ -26,6 +26,10 @@ public class Player : MonoBehaviour
     public int timer2;
 
     public Collider2D col;
+
+    public GameObject effects;
+
+    public ParticleSystem shootparts;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -42,6 +46,8 @@ public class Player : MonoBehaviour
     {
         Vector2 aimDirection = new Vector2(0, 0) - rb.position;
             rb.AddForce(aimDirection.normalized * -250, ForceMode2D.Impulse);
+            col.enabled = false;
+        timer2 = 15;
      }
     // Update is called once per frame
     void Update()
@@ -52,21 +58,27 @@ public class Player : MonoBehaviour
 		moveDir = new Vector2 (moveX, moveY).normalized;
 		mousePos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") && timer2 <= 0)
         {
             auds[1].Play();
-            Vector2 aimDirection = mousePos - rb.position;
-            rb.AddForce(aimDirection * 10, ForceMode2D.Impulse);
+            //Vector2 aimDirection = mousePos - rb.position;
+            rb.AddForce(rb.linearVelocity * 10, ForceMode2D.Impulse);
             col.enabled = false;
             timer2 = 15;
             dashparts.Play();
         }
 
+        if (Input.GetKeyDown("p"))
+        {
+            effects.SetActive(!effects.active);
+        }
+
         if (Input.GetMouseButton(0) && timer <= 0)
         {
+            shootparts.Play();
             auds[0].pitch = Random.Range(0.9f, 1.1f);
             auds[0].Play();
-            timer = 10;
+            timer = 8;
 
             GameObject bullet = (GameObject)Instantiate(bulletPrefab, transform.position, transform.rotation);
 
@@ -114,5 +126,13 @@ public class Player : MonoBehaviour
              float rot2 = (rb.rotation + (Input.GetKey(KeyCode.W) ? 90f : (Input.GetKey(KeyCode.A) ? 180f : (Input.GetKey(KeyCode.S) ? -90f : 0)))) * Mathf.Deg2Rad;
              rb.AddForce(new Vector2((Mathf.Cos(rot2)) * moveSpeed, (Mathf.Sin(rot2)) * moveSpeed), ForceMode2D.Impulse);
          } *///seqdyhhjhsxjjkelinmsknmn medjmnionjm msm,merddkmnsnnamkjs
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Enemy"))
+            {
+                Kill();
+            }
     }
 }

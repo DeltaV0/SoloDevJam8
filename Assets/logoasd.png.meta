@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: e0ca3d8b08da38a4f9980cf6ab6e2504
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5303554015176914456
+    second: logoasd_0
+  - first:
+      213: -1423092521147085086
+    second: logoasd_1
+  - first:
+      213: -2966988252049206971
+    second: logoasd_2
+  - first:
+      213: 2614351185101609930
+    second: logoasd_3
+  - first:
+      213: 1862915785386931733
+    second: logoasd_4
+  - first:
+      213: 5797944334386311816
+    second: logoasd_5
+  - first:
+      213: 5558957917064819234
+    second: logoasd_6
+  - first:
+      213: 2969057296872301586
+    second: logoasd_7
+  - first:
+      213: 4267538054681216500
+    second: logoasd_8
+  - first:
+      213: 5755232017685444520
+    second: logoasd_9
+  - first:
+      213: -891211627049215393
+    second: logoasd_10
+  - first:
+      213: 7725957006084755904
+    second: logoasd_11
+  - first:
+      213: -2076172487747644407
+    second: logoasd_12
+  - first:
+      213: 5163774853068841886
+    second: logoasd_13
+  - first:
+      213: -4073595989243561227
+    second: logoasd_14
+  - first:
+      213: 9183455056561246379
+    second: logoasd_15
+  - first:
+      213: 4046816804358652562
+    second: logoasd_16
+  - first:
+      213: 303020617290923523
+    second: logoasd_17
+  - first:
+      213: 3509294329670065060
+    second: logoasd_18
+  - first:
+      213: -7565411263106046075
+    second: logoasd_19
+  - first:
+      213: -9055094404283487460
+    second: logoasd_20
+  - first:
+      213: 1138752116573862763
+    second: logoasd_21
+  - first:
+      213: 4200624448199815271
+    second: logoasd_22
+  - first:
+      213: 5906419617635868329
+    second: logoasd_23
+  - first:
+      213: -7569504557886830805
+    second: logoasd_24
+  - first:
+      213: -113060878232805892
+    second: logoasd_25
+  - first:
+      213: -7126427477712063530
+    second: logoasd_26
+  - first:
+      213: -3817382113420472078
+    second: logoasd_27
+  - first:
+      213: -1872869904041905631
+    second: logoasd_28
+  - first:
+      213: -8618447278143182194
+    second: logoasd_29
+  - first:
+      213: -2436530490673819099
+    second: logoasd_30
+  - first:
+      213: -1513665759216043762
+    second: logoasd_31
+  - first:
+      213: -2921443375527159475
+    second: logoasd_32
+  - first:
+      213: 5686474705973672566
+    second: logoasd_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: logoasd_0
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 488
+        width: 133
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9884ef8bdf566b0800000000000000
+      internalID: -5303554015176914456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_1
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 582
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee438254e8204ce0800000000000000
+      internalID: -1423092521147085086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_2
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 487
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54199df87e323d6d0800000000000000
+      internalID: -2966988252049206971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_3
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 488
+        width: 42
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb5a1a2d8a084420800000000000000
+      internalID: 2614351185101609930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_4
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 488
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516b47269086ad910800000000000000
+      internalID: 1862915785386931733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_5
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 488
+        width: 15
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882b59e37af667050800000000000000
+      internalID: 5797944334386311816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_6
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 488
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2227effd5c2652d40800000000000000
+      internalID: 5558957917064819234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_7
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 456
+        width: 75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214ead971e5343920800000000000000
+      internalID: 2969057296872301586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_8
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 551
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f54cb61047593b30800000000000000
+      internalID: 4267538054681216500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_9
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 488
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7781e0701bedf40800000000000000
+      internalID: 5755232017685444520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 136
+        width: 58
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a980e3fb7c1a3f0800000000000000
+      internalID: -891211627049215393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 135
+        width: 32
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c15f9196fc183b60800000000000000
+      internalID: 7725957006084755904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_12
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 136
+        width: 63
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904dc575f14ff23e0800000000000000
+      internalID: -2076172487747644407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_13
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 230
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e936349bed969a740800000000000000
+      internalID: 5163774853068841886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_14
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 135
+        width: 32
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa7ea6d70ea777c0800000000000000
+      internalID: -4073595989243561227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_15
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 230
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba01919c7bf227f70800000000000000
+      internalID: 9183455056561246379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_16
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 136
+        width: 63
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29201ee417e292830800000000000000
+      internalID: 4046816804358652562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_17
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 135
+        width: 43
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ebe3d55ab843400800000000000000
+      internalID: 303020617290923523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_18
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 167
+        width: 17
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abd64c899483b030800000000000000
+      internalID: 3509294329670065060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_19
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 167
+        width: 17
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58723da1a82420790800000000000000
+      internalID: -7565411263106046075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_20
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 167
+        width: 17
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b2e018d97d55280800000000000000
+      internalID: -9055094404283487460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_21
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 167
+        width: 17
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bfb934409adcf00800000000000000
+      internalID: 1138752116573862763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 135
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76075c50ead9b4a30800000000000000
+      internalID: 4200624448199815271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 135
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae95934951d7f150800000000000000
+      internalID: 5906419617635868329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_24
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 136
+        width: 15
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b278475a5b7b3f690800000000000000
+      internalID: -7569504557886830805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_25
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 136
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd90f2fab35e6ef0800000000000000
+      internalID: -113060878232805892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_26
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 104
+        width: 75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3b36967f7d91d90800000000000000
+      internalID: -7126427477712063530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_27
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 136
+        width: 15
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f094a5713fe50bc0800000000000000
+      internalID: -3817382113420472078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_28
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 104
+        width: 75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122ff03ceba3206e0800000000000000
+      internalID: -1872869904041905631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_29
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 135
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ae7deecdf156880800000000000000
+      internalID: -8618447278143182194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_30
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 136
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5229af29d64bf2ed0800000000000000
+      internalID: -2436530490673819099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_31
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 136
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09714103016efae0800000000000000
+      internalID: -1513665759216043762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_32
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 136
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49194a7ab2f477d0800000000000000
+      internalID: -2921443375527159475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoasd_33
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 136
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67afdc9ed9a6aee40800000000000000
+      internalID: 5686474705973672566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      logoasd_0: -5303554015176914456
+      logoasd_1: -1423092521147085086
+      logoasd_10: -891211627049215393
+      logoasd_11: 7725957006084755904
+      logoasd_12: -2076172487747644407
+      logoasd_13: 5163774853068841886
+      logoasd_14: -4073595989243561227
+      logoasd_15: 9183455056561246379
+      logoasd_16: 4046816804358652562
+      logoasd_17: 303020617290923523
+      logoasd_18: 3509294329670065060
+      logoasd_19: -7565411263106046075
+      logoasd_2: -2966988252049206971
+      logoasd_20: -9055094404283487460
+      logoasd_21: 1138752116573862763
+      logoasd_22: 4200624448199815271
+      logoasd_23: 5906419617635868329
+      logoasd_24: -7569504557886830805
+      logoasd_25: -113060878232805892
+      logoasd_26: -7126427477712063530
+      logoasd_27: -3817382113420472078
+      logoasd_28: -1872869904041905631
+      logoasd_29: -8618447278143182194
+      logoasd_3: 2614351185101609930
+      logoasd_30: -2436530490673819099
+      logoasd_31: -1513665759216043762
+      logoasd_32: -2921443375527159475
+      logoasd_33: 5686474705973672566
+      logoasd_4: 1862915785386931733
+      logoasd_5: 5797944334386311816
+      logoasd_6: 5558957917064819234
+      logoasd_7: 2969057296872301586
+      logoasd_8: 4267538054681216500
+      logoasd_9: 5755232017685444520
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

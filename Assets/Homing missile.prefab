@@ -153,7 +153,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 2
   m_LinearDamping: 1
   m_AngularDamping: 0
   m_GravityScale: 0
@@ -188,6 +188,7 @@ MonoBehaviour:
   rb: {fileID: 9013806477145871210}
   target: {fileID: 0}
   timer: 0
+  parts: {fileID: 6788462838763729539, guid: ce9b10a6006f52343a91ea22a61b7b47, type: 3}
 --- !u!82 &-4623063496731437212
 AudioSource:
   m_ObjectHideFlags: 0
